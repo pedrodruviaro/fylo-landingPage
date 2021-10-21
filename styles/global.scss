@@ -1,0 +1,42 @@
+//typography
+$ff-heading: "Raleway", sans-serif;
+$ff-body: "Open Sans", sans-serif;
+$fw-normal: 400;
+$fw-bold: 700;
+
+//Primary colors
+$dark-blue1: #1c2431; //intro and email sign up background)
+$dark-blue2: #181f2a; //main background
+$dark-blue3: #0b1523; //footer background
+$dark-blue4: #202a3c; //testimonials background
+//Accent
+$cyan: #65e2d9; //inside call-to-action gradient
+$blue: #339ecc; //inside call-to-action gradient
+$light-red: #ff4242; //error
+// Neutral
+$white: #ffffff;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// GENERAL STYLES
+
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $ff-heading;
+}
+
+p,
+span,
+input {
+    font-family: $ff-body;
+}
